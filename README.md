@@ -1,8 +1,6 @@
-# Kiwi's Paradise eCommerce V2
+# Kiwi's Paradise eCommerce Mobile (PWA)
 
-![Desktop Screenshot](https://github.com/l-yang-05/KiwisParadise-Mongo/blob/master/work/Screen%20Shot%202019-11-21%20at%2012.03.51%20PM.png)
-
-This is my fifth re-edition of my eCommerce website that is centered on selling plushies. This application has three main pages (Home, Products, Contact Us) routed together, with an authenticated protected users page. The home page contains a slider of images. The products page contains items that are pulled from a MongoDB Atlas database. On the products page, the user can filter through the items by type and price. The contact us page contains a form that will validate and take in responses from the user and send them back to the MongoDB Atlas database. Also on this page, at the bottom there is a testimonials section where it displays the comments that are located from the MongoDB Atlas database. The protected authenticated users page will display the list of users that signed up on the application. This website was made by using React.js, CSS, Bootstrap, node, express, and authenticating with JWTs. This application has automated testing through using mocha and chai. The automated testing is running on a parallel server from the express server of the application.
+This is my sixth re-edition of my eCommerce website that is centered on selling plushies. Kiwi's Paradise is now offically a PWA, so you are able to install this application onto your devices! This application has three main pages (Home, Products, Contact Us) routed together, with an authenticated protected users page. The home page contains a slider of images. The products page contains items that are pulled from a MongoDB Atlas database. On the products page, the user can filter through the items by type and price. The contact us page contains a form that will validate and take in responses from the user and send them back to the MongoDB Atlas database. Also on this page, at the bottom there is a testimonials section where it displays the comments that are located from the MongoDB Atlas database. The protected authenticated users page will display the list of users that signed up on the application. This website was made by using React.js, CSS, Bootstrap, node, express, and authenticating with JWTs. This application has automated testing through using mocha and chai. The automated testing is running on a parallel server from the express server of the application.
 
 ## Getting Started
 
@@ -16,12 +14,23 @@ After you have installed all of the dependencies that are needed for this projec
 
 ## Stopping the app
 
-To stop running the server and the react app, you can hit ```command + z``` to close both.
+To stop running the server and the react app, you can hit ```control + z``` to close both.
 
 
 ## Tests
 
 To run the tests for API endpoints run the command ```npm run test```.
+
+## Installing PWA
+In order to install the PWA on your devices, you would need to access the deployed site on the browser you're currently using.
+
+#### Android Users
+For Android users that usually use browsers like Google Chrome and Samsung Internet, you will notice an option icon (Three dots) near the top of the browser. Click on the icon and select the option "Add to homescreen". You'll then be greeted with a popup asking you to add the app to homescreen. Press 'Yes' and soon you'll be able to have the app on your device!
+
+#### Apple Users
+For Apple users that usually use Safari, you will notice an share icon (Box with arrow point up) near the bottom of the browser. Click on the icon and select the option "Add to homescreen". You'll then be greeted with a popup asking you to add the app to homescreen. Press 'Yes' and soon you'll be able to have the app on your device!
+
+![Screenshot-HomeScreen](https://github.com/l-yang-05/KiwisParadise-Mobile/blob/master/screenshots-pwa/Screenshot_20191202-140402_One_UI_Home.jpg | width=250)
 
 ## Built With
 
