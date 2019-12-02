@@ -249,3 +249,5 @@ export function unregister() {
         });
     }
 }
+
+module.exports = ServiceWorker
