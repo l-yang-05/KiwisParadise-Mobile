@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 mongoose.set('useCreateIndex', true)
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useMongoClient: true, dbName: "eCommerce" }, (err) => {
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, dbName: "eCommerce" }, (err) => {
     console.log(err || 'Connected to MongoDB')
 })
 
