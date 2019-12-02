@@ -33,7 +33,7 @@ const Contact = () => {
     // Function fetches api/contacts that is used to get contacts to display onto testimonial component
     const contactsAPI = async () => {
         try {
-            const res = await fetch("api/contacts");
+            const res = await fetch("https://kiwisparadise-pwa.herokuapp.com/api/contacts");
             const text = await res.text();
             const response = text.length ? JSON.parse(text) : {}
             setTestimonial(response);
@@ -47,7 +47,7 @@ const Contact = () => {
     res.body to send to api and then to mysql database */
     const newContactAPI = async (full_name, email, message) => {
         try {
-            const res = await fetch("api/contacts", {
+            const res = await fetch("https://kiwisparadise-pwa.herokuapp.com/api/contacts", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

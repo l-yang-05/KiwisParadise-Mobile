@@ -60,7 +60,7 @@ const Products = () => {
     //Fetching api/productfilter endpoint to get filtered product data from mysql db
     // Takes in two parameters which will be taking in state for type and price
     const filterBoth = async (type, price) => {
-        const res = await fetch(`api/productfilter?type=${type}&price=${price}`);
+        const res = await fetch(`https://kiwisparadise-pwa.herokuapp.com/api/productfilter?type=${type}&price=${price}`);
         const text = await res.text();
         const response = text.length ? JSON.parse(text) : {}
         setProducts(response)

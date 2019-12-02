@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTitle } from 'hookrouter'
 
+const
 
 const User = () => {
     useTitle("Kiwi's Paradise | Users")
@@ -10,12 +11,11 @@ const User = () => {
 
     const userAPI = async () => {
         try {
-            const res = await fetch("api/users", {
+            const res = await fetch("https://kiwisparadise-pwa.herokuapp.com/api/users", {
                 method: 'GET',
                 headers: { token: token }
             });
             const text = await res.text();
-            console.log("hi---", text)
             const response = text.length ? JSON.parse(text) : {}
             setAdmin(response);
         }
