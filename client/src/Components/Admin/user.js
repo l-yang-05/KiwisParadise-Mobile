@@ -10,7 +10,7 @@ const User = () => {
 
     const userAPI = async () => {
         try {
-            const res = await fetch("https://kiwisparadise-pwa.herokuapp.com/api/users", {
+            const res = await fetch("/api/users", {
                 method: 'GET',
                 headers: { token: token }
             });
