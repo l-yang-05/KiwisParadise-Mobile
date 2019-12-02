@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTitle } from 'hookrouter'
 
-const
 
 const User = () => {
     useTitle("Kiwi's Paradise | Users")

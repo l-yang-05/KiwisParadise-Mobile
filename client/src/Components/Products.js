@@ -13,7 +13,7 @@ const Products = () => {
     // Fetching api/products endpoint to get products data from mysql db
     const productsApiCaller = async () => {
         try {
-            const res = await fetch("api/products");
+            const res = await fetch("https://kiwisparadise-pwa.herokuapp.com/api/products");
             const text = await res.text();
             const response = text.length ? JSON.parse(text) : {}
             setProducts(response)
@@ -31,7 +31,7 @@ const Products = () => {
         const val = e.target.value;
         setType(val);
         try {
-            const res = await fetch(`api/productfilter?type=${val}`);
+            const res = await fetch(`https://kiwisparadise-pwa.herokuapp.com/api/productfilter?type=${val}`);
             const text = await res.text();
             const response = text.length ? JSON.parse(text) : {}
             setProducts(response)
@@ -47,7 +47,7 @@ const Products = () => {
         const val = e.target.value;
         setPrice(val);
         try {
-            const res = await fetch(`api/productfilter?price=${val}`);
+            const res = await fetch(`https://kiwisparadise-pwa.herokuapp.com/api/productfilter?price=${val}`);
             const text = await res.text();
             const response = text.length ? JSON.parse(text) : {}
             setProducts(response)
