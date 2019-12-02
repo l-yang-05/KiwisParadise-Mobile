@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/l-yang-05/Kiwis-Paradise-v2.git"
+    "url": "git+https://github.com/l-yang-05/KiwisParadise-Mobile.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/l-yang-05/Kiwis-Paradise-v2/issues"
+    "url": "https://github.com/l-yang-05/KiwisParadise-Mobile/issues"
   },
-  "homepage": "https://github.com/l-yang-05/Kiwis-Paradise-v2#readme",
+  "homepage": "https://github.com/l-yang-05/KiwisParadise-Mobile#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
