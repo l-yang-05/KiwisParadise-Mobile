@@ -30,8 +30,10 @@ For Android users that usually use browsers like Google Chrome and Samsung Inter
 #### Apple Users
 For Apple users that usually use Safari, you will notice an share icon (Box with arrow point up) near the bottom of the browser. Click on the icon and select the option "Add to homescreen". You'll then be greeted with a popup asking you to add the app to homescreen. Press 'Yes' and soon you'll be able to have the app on your device!
 
+<kbd>
 <img src="https://github.com/l-yang-05/KiwisParadise-Mobile/blob/master/screenshots-pwa/Screenshot_20191202-155629_Chrome.jpg" alt="add to homescreen" width="250" height="auto"/>
-
+<kbd>
+ 
 ## Built With
 
 * [React](https://github.com/facebook/react) - The framework used
