@@ -32,7 +32,7 @@ For Apple users that usually use Safari, you will notice an share icon (Box with
 
 <kbd>
 <img src="https://github.com/l-yang-05/KiwisParadise-Mobile/blob/master/screenshots-pwa/Screenshot_20191202-155629_Chrome.jpg" alt="add to homescreen" width="250" height="auto"/>
-<kbd>
+</kbd>
  
 ## Built With
 
