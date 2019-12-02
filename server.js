@@ -21,7 +21,6 @@ through client */
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
-app.use(cors())
 // Helmet helps apply sercurity to application by adding http headers on the responses.
 app.use(helmet())
 
@@ -43,6 +42,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useMong
 const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' })
 app.use(morgan('dev', { stream: accessLogStream }))
 
+app.use(cors())
 
 // Import route files and assigning them to a variable so I can use them in app.use()
 const rootAPI = require('./routes/rootAPI')
