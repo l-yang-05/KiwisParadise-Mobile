@@ -33,7 +33,7 @@ To run the tests for API endpoints run the command ```npm run test```.
 ## Installing PWA
 In order to install the PWA on your devices, you would need to access the deployed site on the browser you're currently using.
 
-#### Android Users
+### Android Users
 For Android users that usually use browsers like Google Chrome and Samsung Internet, you will notice an option icon (Three dots) near the top of the browser. Click on the icon and select the option "Add to homescreen". You'll then be greeted with a popup asking you to add the app to homescreen. Press 'Yes' and soon you'll be able to have the app on your device!
 
 <kbd>
@@ -44,7 +44,7 @@ For Android users that usually use browsers like Google Chrome and Samsung Inter
 <img src="https://github.com/l-yang-05/KiwisParadise-Mobile/blob/master/screenshots-pwa/Screenshot_20191202-155842_One_UI_Home.jpg" alt="Android app on homescreen" width="250" height="auto"/>
 </kbd>
 
-#### Apple Users
+### Apple Users
 For Apple users that usually use Safari, you will notice an share icon (Box with arrow point up) near the bottom of the browser. Click on the icon and select the option "Add to homescreen". You'll then be greeted with a popup asking you to add the app to homescreen. Press 'Yes' and soon you'll be able to have the app on your device!
 
 <kbd>
