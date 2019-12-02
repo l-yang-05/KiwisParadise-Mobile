@@ -62,6 +62,11 @@ app.use("/api/users", usersAPI)
 app.use('/', rootAPI)
 
 
+// const url = window.location.origin
+// if (!url.includes('localhost') && !url.includes('https')) {
+//     window.location = `https:${url.split(':')[1]}`
+// }
+
 app.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
@@ -69,7 +74,7 @@ app.get("*", function (req, res) {
 
 // App will be placed on the port variable made on line 13
 app.listen(PORT, () => {
-    console.log(`Magic happens on port ${PORT}!`)
+    console.log(`Magic happens on port ${PORT} !`)
 })
 
 // Exporting the app to be used for testing the API endpoints

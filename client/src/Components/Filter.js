@@ -15,9 +15,9 @@ const Filter = ({ all, filterType, filterPrice, type, price }) => {
                 <form className="filterButtons" name="type-drop">
                     <select onChange={filterType} value={type} >
                         <option defaultValue={true} disabled="disabled" value="">--- Select A Type ---</option>
-                        <option value="character">Character</option>
-                        <option value="animal">Animal</option>
-                        <option value="other">Other</option>
+                        <option value="character" name="type">Character</option>
+                        <option value="animal" name="type">Animal</option>
+                        <option value="other" name="type">Other</option>
                     </select>
                 </form>
             </div>
@@ -27,9 +27,9 @@ const Filter = ({ all, filterType, filterPrice, type, price }) => {
                 <form className="filterButtons" name="price-drop">
                     <select onChange={filterPrice} value={price}>
                         <option defaultValue={true} disabled="disabled" value="">--- Select A Price ---</option>
-                        <option value="3">$3.00</option>
-                        <option value="4">$4.00</option>
-                        <option value="5">$5.00</option>
+                        <option value="3" name="price">$3.00</option>
+                        <option value="4" name="price">$4.00</option>
+                        <option value="5" name="price">$5.00</option>
                     </select>
                 </form>
             </div>

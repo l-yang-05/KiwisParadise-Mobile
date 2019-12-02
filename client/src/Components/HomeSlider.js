@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
+import slideOne from '../images/slide1.jpg';
+import slideTwo from '../images/slide2.jpg';
+import slideThree from '../images/slide3.jpg';
 
 const HomeSlider = () => {
     const [index, setIndex] = useState(0);
@@ -16,7 +19,7 @@ const HomeSlider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://findjapan.superdelivery.com/wp-content/uploads/2017/10/DSC_0019.jpg"
+                    src={slideOne}
                     alt="First banner slide"
                 />
                 <Carousel.Caption>
@@ -27,7 +30,7 @@ const HomeSlider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://i.ytimg.com/vi/287if5nT444/maxresdefault.jpg"
+                    src={slideTwo}
                     alt="Second banner slide"
                 />
 
@@ -39,7 +42,7 @@ const HomeSlider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://3.bp.blogspot.com/-xCxLqmoDnNs/XNJeJaqCF2I/AAAAAAAASA4/wUIWdLRPJd8KEKxaIP6NoXn49Cv0znODQCLcBGAs/s1600/Rilakkuma%2Band%2BKaoru%2BSign%2Bme%2Bup.jpg"
+                    src={slideThree}
                     alt="Third banner slide"
                 />
 

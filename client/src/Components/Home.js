@@ -1,6 +1,10 @@
 import React from 'react';
 import { useTitle } from 'hookrouter';
 import HomeSlider from './HomeSlider';
+import sabrina from '../images/headshot1.jpg';
+import lens from '../images/headshot2.jpg';
+import david from '../images/headshot3.jpg';
+
 
 const Home = () => {
     useTitle("Kiwi's Paradise | Home")
@@ -24,7 +28,7 @@ const Home = () => {
                 <div className="card-wrapper">
 
                     <div className="card">
-                        <img src="https://images.squarespace-cdn.com/content/v1/56b02a1660b5e9fa821ce814/1554153048675-XVBAABV9XW715B1I0UHU/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/sarina-headshot.jpg" alt="Sabrina Headshot" />
+                        <img src={sabrina} alt="Sabrina Headshot" />
                         <h3>Sabrina Brown</h3>
                         <h4>Marketing Manager</h4>
                         <p>
@@ -33,7 +37,7 @@ const Home = () => {
                     </div>
 
                     <div className="card">
-                        <img src="https://truestudios.biz/images/headshots/Free_Headshot_Columbus_7.jpg" alt="Lens Headshot" />
+                        <img src={lens} alt="Lens Headshot" />
                         <h3>Lens Rentals</h3>
                         <h4>CEO</h4>
                         <p>
@@ -42,7 +46,7 @@ const Home = () => {
                     </div>
 
                     <div className="card">
-                        <img src="http://www.proheadshots.ca/wp-content/uploads/2016/02/VLR-3011-Edit-1024x1024.jpg" alt="David Headshot" />
+                        <img src={david} alt="David Headshot" />
                         <h3>David Burnington</h3>
                         <h4>Production Manager</h4>
                         <p>
